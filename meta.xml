@@ -24,7 +24,7 @@
     <field index="9" term="http://purl.org/dc/terms/references"/>
 	<field term="http://purl.org/dc/terms/format" default="image/jpeg"/>
     <field term="http://purl.org/dc/terms/type" default="StillImage"/>
-    <field term="http://purl.org/dc/terms/license" default="http://creativecommons.org/licenses/by-nc-sa/3.0/ "/>
+    <field term="http://purl.org/dc/terms/license" default="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
   </extension>
 </archive>
 
