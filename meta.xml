@@ -22,25 +22,31 @@
     <coreid index="0"/>
     <field index="7" term="http://purl.org/dc/terms/title"/>
     <field index="8" term="http://purl.org/dc/terms/identifier"/>
-    <field index="9" term="http://purl.org/dc/terms/references"/>
+    <field index="8" term="http://purl.org/dc/terms/references"/>
 	<field term="http://purl.org/dc/terms/format" default="image/jpeg"/>
     <field term="http://purl.org/dc/terms/type" default="StillImage"/>
     <field term="http://purl.org/dc/terms/license" default="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
   </extension>
   
   <!-- EOL media-->
-  <extension encoding="UTF-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" fieldsEnclosedBy="" ignoreHeaderLines="1" rowType="http://eol.org/schema/media/Document">
+  <extension encoding="utf-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" fieldsEnclosedBy="" ignoreHeaderLines="1" rowType="http://eol.org/schema/media/Document">
     <files>
       <location>data.tsv</location>
     </files>
     <coreid index="0"/>
+    <field index="10" term="http://purl.org/dc/terms/language"/>
     <field index="7" term="http://purl.org/dc/terms/title"/>
-    <field index="8" term="http://purl.org/dc/terms/identifier"/>
-    <field index="9" term="http://purl.org/dc/terms/references"/>
-	<field term="http://purl.org/dc/terms/format" default="image/jpeg"/>
-    <field term="http://purl.org/dc/terms/type" default="StillImage"/>
+    <field index="11" term="http://purl.org/dc/terms/description"/>
+    
+    <!-- defaults -->
+    
+	<field term="http://purl.org/dc/terms/format" default="text/html"/>
+    <field term="http://purl.org/dc/terms/type" default="http://purl.org/dc/dcmitype/Text"/>
     <field term="http://purl.org/dc/terms/license" default="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+    <field term="http://iptc.org/std/Iptc4xmpExt/1.0/xmlns/CVterm" default="http://rs.tdwg.org/ontology/voc/SPMInfoItems#GeneralDescription"/>
   </extension>
+
+  
   
   
 </archive>
