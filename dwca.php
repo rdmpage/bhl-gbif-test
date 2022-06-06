@@ -154,7 +154,7 @@ function data_display($data)
 	}		
 
 
-	echo json_encode($data) . "\n";
+	//echo json_encode($data) . "\n";
 }
 
 
@@ -310,8 +310,6 @@ function parse_meta($xpath, $tag, $callback_func = null)
 			}
 		}
 		
-		//print_r($attributes);
-		
 		// file
 		$files = $xpath->query ('dwc_text:files/dwc_text:location', $core);
 		foreach ($files as $file)
@@ -433,7 +431,7 @@ function parse_meta($xpath, $tag, $callback_func = null)
 			
 		}
 		
-		//print_r($data);exit();
+		//print_r($data);
 		
 		// process file
 		parse_data($data, $callback_func);

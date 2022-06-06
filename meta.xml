@@ -23,6 +23,7 @@
     <field index="7" term="http://purl.org/dc/terms/title"/>
     <field index="8" term="http://purl.org/dc/terms/identifier"/>
     <field index="8" term="http://purl.org/dc/terms/references"/>
+     <field index="9" term="http://purl.org/dc/terms/description"/>
 	<field term="http://purl.org/dc/terms/format" default="image/jpeg"/>
     <field term="http://purl.org/dc/terms/type" default="StillImage"/>
     <field term="http://purl.org/dc/terms/license" default="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
@@ -34,9 +35,9 @@
       <location>data.tsv</location>
     </files>
     <coreid index="0"/>
-    <field index="10" term="http://purl.org/dc/terms/language"/>
+    <field index="11" term="http://purl.org/dc/terms/language"/>
     <field index="7" term="http://purl.org/dc/terms/title"/>
-    <field index="11" term="http://purl.org/dc/terms/description"/>
+    <field index="12" term="http://purl.org/dc/terms/description"/>
     
     <!-- defaults -->
     
