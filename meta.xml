@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archive xmlns="http://rs.tdwg.org/dwc/text/">
+  <core encoding="utf-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" fieldsEnclosedBy="" ignoreHeaderLines="1" rowType="http://rs.tdwg.org/dwc/terms/Taxon">
+    <files>
+      <location>data.tsv</location>
+    </files>     
+    <id index="0" />
+    <field index="0" term="http://rs.tdwg.org/dwc/terms/taxonID"/>
+	<field index="1" term="http://rs.tdwg.org/dwc/terms/scientificName"/>
+	<field index="2" term="http://rs.tdwg.org/dwc/terms/scientificNameAuthorship" />
+	<field index="3" term="http://rs.tdwg.org/dwc/terms/scientificNameID" />
+	<field index="4" term="http://rs.tdwg.org/dwc/terms/taxonRank"/>
+	<field index="5" term="http://rs.tdwg.org/dwc/terms/namePublishedIn"/>
+	<field index="6" term="http://purl.org/dc/terms/references"/>
+  </core>
+    
+  <extension encoding="utf-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" fieldsEnclosedBy="" ignoreHeaderLines="1" rowType="http://rs.gbif.org/terms/1.0/Multimedia">
+    <files>
+      <location>data.tsv</location>
+    </files>
+    <coreid index="0"/>
+    <field index="7" term="http://purl.org/dc/terms/title"/>
+    <field index="8" term="http://purl.org/dc/terms/identifier"/>
+    <field index="9" term="http://purl.org/dc/terms/references"/>
+	<field term="http://purl.org/dc/terms/format" default="image/jpeg"/>
+    <field term="http://purl.org/dc/terms/type" default="StillImage"/>
+    <field term="http://purl.org/dc/terms/license" default="http://creativecommons.org/licenses/by-nc-sa/3.0/ "/>
+  </extension>
+</archive>
+
+
