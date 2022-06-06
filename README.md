@@ -40,3 +40,33 @@ zip dwca.zip eml.xml meta.xml data.tsv
 ```
 
 Next we need to check that the DwC-A file is valid using the [Darwin Core Archive Validator](https://www.gbif.org/tools/data-validator).
+
+## Step 3 Create endpoint
+
+Now we need to tell GBIF where to get the data. In this example, the Darwin Core Archive file is hosted by Github (make sure you link to the raw file).
+
+http://api.gbif.org/v1/dataset/e6532554-1406-45ee-a574-9b3947c7ffbe/endpoint
+
+POST
+```javascript
+{
+  “type”:”DWC_ARCHIVE”,
+  “url”:”https://dl.dropboxusercontent.com/u/639486/dwca.zip”
+}
+```
+
+RESPONSE 
+
+HTTP 201 Created
+
+```javascript
+99444
+```
+
+## Step 4
+
+Wait for GBIF to index the data…
+
+
+
+
